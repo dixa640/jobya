@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - JobFinder</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <h1 class="log">LOGO</h1>
+      </a>
+
+      <!-- Toggler Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="apply.html">Find Job</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="resource.html">Find Candidate</a>
+          </li>
+          <li class="nav-item search-box mt-3 mt-lg-0">
+            <input type="search" placeholder="Find jobs...">
+            <button class="find">Find Job</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container py-5">
+    <div class="row mb-5">
+      <div class="col-sm-12 text-center">
+        <h2 style="text-align: center;" class="mb-sm-3 text-center">🚀 Take the Next Step in Your Career – Apply with Confidence</h2>
+        <p class="text-muted">
+          Looking for your next big opportunity? You’re in the right place.
+          Our platform connects you with thousands of verified job openings across top companies, startups, and global
+          brands.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5 align-items-start">
+      <!-- Left Side: Why Apply -->
+      <div class="col-sm-6">
+        <h3>✅ Why Apply Through Us?</h3> <br>
+        <ul class="mt- sm-4">
+          <li>✅ <strong>Verified Listings:</strong> Every job post is screened for authenticity – no scams.</li> <br>
+          <li>✅ <strong>Smart Matching:</strong> Jobs matched to your skills and interests.</li> <br>
+          <li>✅ <strong>One-Click Apply:</strong> Apply instantly with saved profiles.</li> <br>
+
+          <li>✅ <strong>Track Progress:</strong> Get real-time updates on your applications.</li> <br>
+          <li>✅ <strong>Direct Connect:</strong> Some jobs let you talk directly with hiring managers.</li>
+        </ul>
+      </div>
+
+      <!-- Right Side: Form -->
+      <div class="col-sm-6">
+        <div class="p-4 border rounded bg-light shadow-sm">
+          <h4 class="mb-4 text-center">Apply Here</h4>
+          <form id="applyForm">
+            <div class="mb-3">
+              <label for="full-name" class="form-label">Full Name *</label>
+              <input type="text" class="form-control" id="full-name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email *</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone No. *</label>
+              <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+              <label for="education" class="form-label">Higher Education *</label>
+              <input type="text" class="form-control" id="education" required>
+            </div>
+            <div class="mb-3">
+              <label for="field" class="form-label">Field *</label>
+              <input type="text" class="form-control" id="field" required>
+            </div>
+            <div class="mb-3">
+              <label for="experience" class="form-label">Work Experience *</label>
+              <input type="text" class="form-control" id="experience" required>
+            </div>
+            <button  style="background-color: #003d99;" type="submit" class="btn btn-success w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Opportunities -->
+    <div class="mb-5">
+      <h3 class="mb-3">💼 Opportunities Across All Industries</h3>
+      <p class="mb-4">Explore jobs in every sector and experience level:</p>
+      <div class="row g-4">
+        <!-- Repeating Cards -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="border p-3 rounded shadow-sm h-100">
+            <h5>Cisco Systems India</h5>
+            <p><strong>Industry:</strong> IT | <strong>Location:</strong> Bengaluru</p>
+            <p>Great for career growth. ✅ Now hiring in tech, security & ops.</p>
+            <a href="#">View Jobs at Cisco</a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="border p-3 rounded shadow-sm h-100">
+            <h5>Hilton India</h5>
+            <p><strong>Industry:</strong> Hospitality | <strong>Location:</strong> Multiple Cities</p>
+            <p>Top brand with great benefits. ✅ Guest services & management roles.</p>
+            <a href="#">View Jobs at Hilton</a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="border p-3 rounded shadow-sm h-100">
+            <h5>Salesforce</h5>
+            <p><strong>Industry:</strong> Cloud Computing | <strong>Location:</strong> Bengaluru, Hyderabad</p>
+            <p>Diversity & work-life balance. ✅ Roles in tech & data science.</p>
+            <a href="#">View Jobs at Salesforce</a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="border p-3 rounded shadow-sm h-100">
+            <h5>TCS</h5>
+            <p><strong>Industry:</strong> IT Services | <strong>Location:</strong> Pan India</p>
+            <p>Stable career, global exposure. ✅ Hiring dev, testing, support.</p>
+            <a href="#">View Jobs at TCS</a>  <br> <br> <br> <br>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="border p-3 rounded shadow-sm h-100">
+            <h5>Aye Finance</h5>
+            <p><strong>Industry:</strong> Fintech | <strong>Location:</strong> Gurgaon</p>
+            <p>Fast-growing. ✅ Open roles in ops, finance & tech.</p>
+            <a href="#">View Jobs at Aye Finance</a> 
+          </div>
+        </div>
+      </div>
+    </div><br><br> 
+
+    <!-- Call to Action -->
+    <div class="text-center">
+      <h4>🔍 Ready to Find the Right Job?</h4>
+      <p>Create your profile, upload your resume, and start applying with confidence!</p>
+      <button style="background-color:  #003d99; margin-bottom: 0px;" class="btn btn-primary"
+        onclick="alert('Redirecting to application page...');">Apply for Job</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-dark pb-4  border-top">
+    <div class="container text-center text-sm-start">
+      <div class="row">
+        <div class="col-sm-3 mb-4">
+          <h6 class="text-uppercase fw-bold">JobFinder</h6>
+          <p>Your one-stop platform to discover jobs, apply instantly, and grow your career with expert guidance.</p>
+        </div>
+        <div class="col-sm-2 mb-4">
+          <h6 class="text-uppercase fw-bold">Quick Links</h6>
+          <p><a href="index.html" class="text-reset text-decoration-none">Home</a></p>
+          <p><a href="about.html" class="text-reset text-decoration-none">About</a></p>
+          <p><a href="contact.html" class="text-reset text-decoration-none">Contact</a></p>
+          <p><a href="resource.html" class="text-reset text-decoration-none">Apply for Job</a></p>
+        </div>
+        <div class="col-sm-3 mb-4">
+          <h6 class="text-uppercase fw-bold">Resources</h6>
+          <p><a href="#" class="text-reset text-decoration-none">Resume Tips</a></p>
+          <p><a href="#" class="text-reset text-decoration-none">Interview Guide</a></p>
+          <p><a href="#" class="text-reset text-decoration-none">Career Advice</a></p>
+          <p><a href="#" class="text-reset text-decoration-none">Find Internships</a></p>
+        </div>
+        <div class="col-sm-4 mb-4">
+          <h6 class="text-uppercase fw-bold">Connect with us</h6>
+          <div class="social-icons mt-3">
+            <i class="fab fa-facebook fa-lg me-3"></i>
+            <i class="fab fa-linkedin fa-lg me-3"></i>
+            <i class="fab fa-instagram fa-lg"></i>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 border-top pt-3">
+        © 2025 Jobiya. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    document.getElementById('applyForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert("Your application has been submitted successfully!");
+      this.reset();
+    });
+  </script>
+
+</body>
+
+</html>

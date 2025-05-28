@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <h1 class="log">LOGO</h1>
+      </a>
+
+      <!-- Toggler Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="apply.html">Find Job</a>
+          </li>
+          <li class="nav-item mt-3 mt-lg-0">
+            <a class="nav-link" href="resource.html">Find Candidate</a>
+          </li>
+          <li class="nav-item search-box mt-3 mt-lg-0">
+            <input type="search" placeholder="Find jobs...">
+            <button class="find">Find Job</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Text -->
+  <div style="margin-top: 2px;" class="container my-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="get ">
+          <h1 class="fw-bold">Get in Touch with us</h1>
+          <p class="text-muted">We’re here to help you take the next step in your career. Whether you’re looking for job
+            opportunities, want to know more about our recruitment process, or need assistance with your application — our
+            team is just a message away.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container mt-0 mb-sm-5">
+    <div class="row align-items-center">
+      <!-- Image on left for larger screens -->
+      <div  class="col-12 col-sm-7  text-center text-md-start">
+        <img src="contact.jpg" alt="Contact Image" class="img-fluid rounded shadow" style="max-height: 500px;">
+      </div>
+
+      <!-- Contact Form on right -->
+      <div class="col-12 col-sm-5">
+        <div id="contact" class="p-4 border rounded shadow-sm bg-light m-sm-auto">
+          <h2 style="color: #003d99;" class="mb-4 text-center">Contact Us</h2>
+          <input type="text" id="name" class="form-control mb-3" placeholder="Enter Your Full Name">
+          <input type="email" id="email" class="form-control mb-3" placeholder="Enter Your Email ID">
+          <input type="tel" id="num" class="form-control mb-3" placeholder="Enter Your Phone Number">
+          <textarea id="ad" class="form-control mb-3" placeholder="Address" rows="4"></textarea>
+          <button class="btn btn-success w-100" onclick="sub()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-dark pt-sm-5 pb-sm-4 mt-sm-5 border-top">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-md-3 mb-sm-4">
+          <h6 class="text-uppercase fw-bold">JobFinder</h6>
+          <p>Your one-stop platform to discover jobs, apply instantly, and grow your career with expert guidance.</p>
+        </div>
+        <div class="col-md-2 mb-sm-4">
+          <h6 class="text-uppercase fw-bold">Quick Links</h6>
+          <p><a href="index.html" class="text-reset text-decoration-none">Home</a></p>
+          <p><a href="about.html" class="text-reset text-decoration-none">About</a></p>
+          <p><a href="contact.html" class="text-reset text-decoration-none">Contact</a></p>
+          <p><a href="resource.html" class="text-reset text-decoration-none">Apply for Job</a></p>
+        </div>
+        <div class="col-md-3 mb-sm-4">
+          <h6 class="text-uppercase fw-bold">Resources</h6>
+          <p><a href="#" class="text-reset text-decoration-none">Resume Tips</a></p>
+          <p><a href="#" class="text-reset text-decoration-none">Interview Guide</a></p>
+          <p><a href="#" class="text-reset text-decoration-none">Career Advice</a></p>
+          <p><a href="#" class="text-reset text-decoration-none">Find Internships</a></p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h6 class="text-uppercase fw-bold">Connect with us</h6>
+          <div class="social-icons mt-3">
+            <i class="fab fa-facebook fa-lg me-3"></i>
+            <i class="fab fa-linkedin fa-lg me-3"></i>
+            <i class="fab fa-instagram fa-lg"></i>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 border-top pt-3">
+        © 2025 Jobiya. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function sub() {
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+      let num = document.getElementById("num").value;
+      let ad = document.getElementById("ad").value;
+
+      alert(`Name: ${name}\nEmail: ${email}\nPhone: ${num}\nAddress: ${ad}`);
+    }
+  </script>
+
+</body>
+
+</html>
